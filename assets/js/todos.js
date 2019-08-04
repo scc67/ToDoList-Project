@@ -18,6 +18,6 @@ $(".js-input").on("keypress", function(event) {
         var todoText = $(this).val();
         $(this).val("")
         //create new li and add to ul
-        $(".js-list").append("<li class=\"js-do\"><span class=\"js-delete\">X</span> " + todoText + "</li>")
+        $(".js-list").append("<li class=\"js-do todo__do\"><span class=\"js-delete\">X</span> " + todoText + "</li>")
     }
 });

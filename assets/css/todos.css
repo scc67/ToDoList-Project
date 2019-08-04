@@ -1,10 +1,42 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
 .todo {
   width: 360px;
-  margin: 0 auto;
-  border: 2px solid gray;
+  margin: 100px auto;
+  background: #f7f7f7;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.todo__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo__do {
+  background: #fff;
 }
 
 .todo__do--completed {
   color: gray;
   text-decoration: line-through;
+}
+
+.todo__do:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+.todo__header {
+  background: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
