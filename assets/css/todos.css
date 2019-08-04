@@ -1,2 +1,10 @@
-body {
-  background: purple; }
+.todo {
+  width: 360px;
+  margin: 0 auto;
+  border: 2px solid gray;
+}
+
+.todo__do--completed {
+  color: gray;
+  text-decoration: line-through;
+}
